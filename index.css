@@ -1,0 +1,307 @@
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adidas-logo {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+    position: relative;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .hero {
+    background-image: url("adidas\ banner.jpg" );
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .products {
+    margin-top: 10px;
+  }
+  
+  .products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .products ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  .products li {
+    width: calc(33.33% - 5px);
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .products li:last-child {
+    margin-right: 0;
+  }
+  
+  .products a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+  }
+  
+  .products a:hover {
+    transform: translateY(-10px);
+  }
+  
+  .products img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .products h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .products p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  footer {
+    background-color: #f1f1f1;
+    padding: 60px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+  }
+  
+  .col:last-child {
+    margin-right: 0;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    color: #aaa;
+  }
+  
+  header {
+    background-color: #000;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  nav ul li:hover > a {
+    background-color: #222;
+  }
+  
+  nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #222;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul ul li {
+    display: block;
+  }
+  
+  nav ul ul li a {
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  nav ul ul li a:hover {
+    background-color: #444;
+  }
+  
+  nav ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+  }
+  header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  .search-box form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-box input[type="text"] {
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    width: 250px;
+  }
+  
+  .search-box button[type="submit"] {
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .cart a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+  }
+  
+  .cart a:hover {
+    background-color: #000;
+    color: #fff;
+  }
