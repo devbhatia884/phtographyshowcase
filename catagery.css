@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .category {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .items {
+    display: none;
+  }
+  
