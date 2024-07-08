@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cart, .products {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+.cart {
+    width: 300px;
+}
+
+#total {
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
